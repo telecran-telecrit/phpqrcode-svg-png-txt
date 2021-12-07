@@ -17,6 +17,10 @@ Usage : QRcode::eps('arguments');
 Added support for SVG export
 Usage : QRcode::svg('arguments');
 
+Added support for SVG inline export
+Usage : 
+QRcode::svg('arguments', /*filename = */false, /*level = */0, /*$pixelPerPoint = */4, /*$outerFrame = */4, /*$saveandprint = */false, /*$back_color = */0xFFFFFF, /*$fore_color = */0x000000, /*$returnandembed = */true); 
+
 Added support for color export :
 example : 
 $back_color = 0xFFFF00;
